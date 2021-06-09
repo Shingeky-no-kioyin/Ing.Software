@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div id="fundacion" class="container-fluid">
+        <div id="row1" class="row">
+            <div class="col-2">
+                <ul class="nav">
+                    <img src="img/logo2.JPG" class="rounded-circle" alt="..." width="200" height="200">
+                </ul>
+            </div>
+            <div id="row2" class="col-4">
+                <h1>Fundación Apoyo</h1>
+                <h6>Comprometidos con el bienestrar de los adultos mayores</h6>
+            </div>
+            <div id="row1" class="col-6"></div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <a class="nav-link active" href="index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
+                    </svg>
+                    volver
+                </a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <form action="" id="form1">
+            <div class="row">
+                <div class="col-5"></div>
+                <div class="col-3">
+                    <h1 aling="center">Login</h1>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                    <h6>Seleccione como se registrará</h6>
+                    <br>
+                    Funcionario <input type="radio" name="login" id="fun">
+                    Aportador <input type="radio" name="login" id="apo">
+                </div>
+                <div class="col"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <label for="txt1" class="form-label">Usuario</label>
+                    <div class="input-group mb-3">
+                        <input type="text" name="txt1" id="txt1" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-default">
+                        <span id="error1" class="error"></span>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <label for="txt2" class="form-label">Contraseña</label>
+                    <div class="input-group mb-3">
+                        <input type="password" name="txt2" id="txt2" class="form-control"
+                            aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                        <span id="error2" class="error"></span>
+                    </div>
+                    <div class="b">
+                        <div class="a">
+                            <a class="nav-link" href="#">¿Olvidaste tu contraseña?</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-5"></div>
+                <div class="col-7">
+                    <form action="#">
+                        <button id="btn1" type="button" class="btn btn-primary ">
+                            <a href="funcionarios.html">Entrar</a>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </form>
+    </div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
