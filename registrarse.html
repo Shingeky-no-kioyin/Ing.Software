@@ -7,53 +7,51 @@
     <title>Creando Cuenta Nueva</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="img/logo2.jpg" />
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/script.js"></script>
 </head>
 
 <body>
-    <div id="fundacion" class="container-fluid">
-        <div id="row1" class="row">
-            <div class="col-2">
-                <ul class="nav">
-                    <img src="img/logo2.JPG" class="rounded-circle" alt="..." width="200" height="200">
+    <div id="fundacion" class="container">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a class="navbar-brand" href="">Fundación Apoyo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html #intro">Nuestra Labor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html #contacto">Contáctanos</a>
+                    </li>
                 </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a href="registrarse.html"><button type="button" class="btn btn-light">Registrate</button></a>
+                    <a href="login.html"><button type="button" class="btn btn-primary my-2 my-sm-0">Login</button></a>
+                </form>
             </div>
-            <div id="row2" class="col-4">
-                <h1>Fundación Apoyo</h1>
-                <h6>Comprometidos con el bienestrar de los adultos mayores</h6>
-            </div>
-            <div id="row1" class="col-6"></div>
-        </div>
-        <br>
-        <br>
-        <div class="row">
-            <div class="col-8">
-                <a class="nav-link active" href="index.html">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-                        <path
-                            d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z" />
-                    </svg>
-                    volver
-                </a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-5"></div>
-            <div class="col-3">
-                <h1 aling="center">Registrar Aportador</h1>
-            </div>
-            <div class="col-4"></div>
-        </div>
-        <br>
-        <br>
+        </nav>
         <div>
             <main>
                 <form action="#" id="formulario" class="formulario">
-
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col"></div>
+                        <div class="col-7">
+                            <br>
+                            <h1>Registrar Aportador</h1>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col-7">
                             <div class="formulario__grupo" id="grupo__nombre">
                                 <label for="nombre" class="formulario__label">Nombre</label>
                                 <div class="formulario__grupo-input">
@@ -64,12 +62,12 @@
                                     contener números, letras y guion bajo.</p>
                             </div>
                         </div>
+                        <div class="col"></div>
                     </div>
                     <br>
-                    <br>
-                    <br>
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col"></div>
+                        <div class="col-7">
                             <div class="formulario__grupo" id="monto">
                                 <label for="monto" class="formulario__label">Monto Minimo a Aportar</label>
                                 <div class="formulario__grupo-input">
@@ -77,12 +75,12 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col"></div>
                     </div>
                     <br>
-                    <br>
-                    <br>
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col"></div>
+                        <div class="col-7">
                             <div class="formulario__grupo" id="grupo__password">
                                 <label for="password" class="formulario__label">Contraseña</label>
                                 <div class="formulario__grupo-input">
@@ -92,12 +90,12 @@
                                 <p class="formulario__input-error">La contraseña tiene que ser de 8 a 12 dígitos.</p>
                             </div>
                         </div>
+                        <div class="col"></div>
                     </div>
                     <br>
-                    <br>
-                    <br>
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col"></div>
+                        <div class="col-7">
                             <div class="formulario__grupo" id="grupo__password2">
                                 <label for="password2" class="formulario__label">Repetir Contraseña</label>
                                 <div class="formulario__grupo-input">
@@ -107,12 +105,12 @@
                                 <p class="formulario__input-error">Ambas contraseñas deben ser iguales.</p>
                             </div>
                         </div>
+                        <div class="col"></div>
                     </div>
                     <br>
-                    <br>
-                    <br>
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col"></div>
+                        <div class="col-7">
                             <div class="formulario__grupo" id="grupo__correo">
                                 <label for="correo" class="formulario__label">Correo Electrónico</label>
                                 <div class="formulario__grupo-input">
@@ -124,21 +122,22 @@
                                     puntos, guiones y guión bajo.</p>
                             </div>
                         </div>
+                        <div class="col"></div>
                     </div>
                     <br>
                     <br>
-                    <br>
-                </form>
-                <br>
-                <br>
-                <form action="">
-                    <button id="eli" type="submit" class="formulario__btn">Enviar</button>
+                    <div class="row">
+                        <div class="col"></div>
+                    <div class="col">
+                        <form action="">
+                            <button id="eli" type="submit" class="formulario__btn">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col"></div>
+                    </div>
                 </form>
             </main>
         </div>
-
-        <br>
-        <br>
     </div>
     <script src="js/script2.js"></script>
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabilidad</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="img/logo2.jpg" />
+    
+</head>
+<body>
+    <div class="container">
+        <!--nav-->
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a class="navbar-brand" href="">Fundación Apoyo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="funcionarios.html">Menu <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a href=""><button type="button" class="btn btn-light">Dueño</button></a>
+                    <a href="index.html"><button type="button" class="btn btn-primary my-2 my-sm-0">Cerrar cuenta</button></a>
+                </form>
+                
+            </div>
+        </nav>
+        <br>
+        <!--main-->
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-7"><h1>Contabilidad</h1></div>
+            <div class="col"></div>
+        </div>
+        <br>
+        <!--Selector-->
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10">
+                <div class="dropdown" id="droow">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="droow0"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Seleccione mes
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="droow" id="aaa0">
+                        <a class="dropdown-item" href="#" id="enero">Enero</a>
+                        <a class="dropdown-item" href="#">Febrero</a>
+                        <a class="dropdown-item" href="#">Marzo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10" id="tablaconta">
+                <table>
+                    <thead>
+                        <tr>
+                            <th><h2>Item</h2></th>
+                            <th><h2>Presupuesto</h2></th>
+                            <th><h2>Gasto</h2></th>
+                            <th><h2>Remanente</h2></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><h4>Trabajadores</h4></td>
+                            <td><h4>$10.000.000</h4></td>
+                            <td><h4>$7.000.000</h4></td>
+                            <td><h4>$3.000.000</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Insumos medicos</h4></td>
+                            <td><h4>$8.500.000</h4></td>
+                            <td><h4>$8.000.000</h4></td>
+                            <td><h4>$500.000</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Insumos aseo</h4></td>
+                            <td><h4>$5.000.000</h4></td>
+                            <td><h4>$3.500.000</h4></td>
+                            <td><h4>$1.500.000</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Alimentacion</h4></td>
+                            <td><h4>$18.000.000</h4></td>
+                            <td><h4>$8.000.000</h4></td>
+                            <td><h4>$10.000.000</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Gastos Comunes</h4></td>
+                            <td><h4>$18.000.000</h4></td>
+                            <td><h4>$15.000.000</h4></td>
+                            <td><h4>$3.000.000</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Aportes</h4></td>
+                            <td><h4>$5.000.000</h4></td>
+                            <td><h4>$0</h4></td>
+                            <td><h4>$5.000.000</h4></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td><h4>Balance Actual</h4></td>
+                            <td></td>
+                            <td></td>
+                            <td><h4>$23.000.000</h4></td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <br>
+                <button type="button" class="btn btn-primary my-2 my-sm-0">Imprimir</button>
+                <br>
+                <br>
+            </div>
+            <br>
+            <div class="col"></div>
+        </div>
+    </div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/scriptCuenta.js"></script>
+</body>
+</html>

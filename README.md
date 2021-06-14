@@ -1,2 +1,0 @@
-# Ing.Software
-proyecto

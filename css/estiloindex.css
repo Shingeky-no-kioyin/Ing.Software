@@ -1,0 +1,13 @@
+.jumbotron {
+    background-image: url(https://www.ecestaticos.com/imagestatic/clipping/dac/769/dac769d2782c7b8926e9e9ba033a7831/estudian-como-actua-la-memoria-en-los-ancianos-para-poder-detectar-el-alzheimer.jpg?mtime=1591274570);
+    background-size: cover;
+}
+.jumbotron .lead{
+    font-weight: bold;
+}
+nav {
+    background-color: white;
+}
+.regi {
+    padding-top: 9px;
+}

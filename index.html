@@ -1,246 +1,169 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>Fundacion apoyo</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/estilos.css">
-    <script src="js/jquery-3.6.0.js"></script>
-    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/estiloindex.css">
+    <link rel="icon" type="image/png" href="img/logo2.jpg" />
 </head>
-
 <body>
-    <div class="container-fluid">
-        <div id="row1" class="row">
-            <div class="col">
-                <ul class="nav justify-content-end">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="login.html"><svg xmlns="http://www.w3.org/2000/svg"
-                                    width="16" height="16" fill="currentColor" class="bi bi-person-fill"
-                                    viewBox="0 0 16 16">
-                                    <path
-                                        d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                                </svg> Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="registrarse.html"><svg xmlns="http://www.w3.org/2000/svg"
-                                    width="16" height="16" fill="currentColor" class="bi bi-person-fill"
-                                    viewBox="0 0 16 16">
-                                    <path
-                                        d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                                </svg> Crear Cuenta</a>
-                        </li>
-                    </ul>
+    <div class="container">
+    <!--nav-->
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a class="navbar-brand" href="">Fundación Apoyo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#intro">Nuestra Labor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contáctanos</a>
+                    </li>
                 </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a href="registrarse.html"><button type="button" class="btn btn-light">Registrate</button></a>
+                    <a href="login.html"><button type="button" class="btn btn-primary my-2 my-sm-0">Login</button></a>
+                </form>
+                
             </div>
+        </nav>
+        <!--jumbo-->
+        <div class="jumbotron" style="background-image: url(https://www.ecestaticos.com/imagestatic/clipping/dac/769/dac769d2782c7b8926e9e9ba033a7831/estudian-como-actua-la-memoria-en-los-ancianos-para-poder-detectar-el-alzheimer.jpg?mtime=1591274570)" background-size="100%">
+            <h1 class="display-4">Bienvenidos a una vejez digna!</h1>
+            <p class="lead">La Fundación Apoyo es una organización dedicada a prestar ayuda a personas de la tercera edad, principalmente entrega el servicio de casa de reposo para ancianos.</p>
+            <hr class="my-4">
+            <p>En la casa de reposo se entregan cuidados médicos y estadía parcial y permanente a los residentes.</p>
         </div>
-        <div id="row2" class="row">
-            <h1> </h1>
-        </div>
-        <div id="row1" class="row">
-            <h1> </h1>
-        </div>
-        <div id="fundacion" class="row">
-            <div class="col-3">
-                <img src="img/logo2.jpg" class="rounded-circle" alt="..." width="200" height="200">
-            </div>
-            <div class="col-9">
-                <h1>Fundación Apoyo</h1>
-                <h6>Comprometidos con el bienestrar de los adultos mayores</h6>
-            </div>
-        </div>
-        <header>
-            <div class="container">
-                <div class="row-6">
-                    <div class="col">
-                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="img/anciano1.png" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption d-none d-md-block">
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/anciano2.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption d-none d-md-block">
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="img/anciano3.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption d-none d-md-block">
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
-                                data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">anterior</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button"
-                                data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">siguiente</span>
-                            </a>
-                        </div>
-                    </div>
+        <br id="intro">
+        <br>
+        <!--segundoo segmento-->
+        <div class="main">
+            <div class="row">
+                <div class="col-6">
+                    <h3>¿Quiénes somos?</h3>
+                    <br>
+                    <p>La fundación Apoyo fue creada el año 1995, por iniciativa de un grupo de personas comprometidas por el bienestar de los ancianos los cuales efectuaron aportes en dinero y mano de obra para lograr construir la casa de reposo.</p>
+                    <p>Anualmente recibe ayuda a través de colectas, aportes  y el trabajo de jóvenes que asisten a efectuar trabajo social, ayudando en realizar algún mantenimiento a la infraestructura y actividades con los ancianos.</p>
+                    <p>La fundación posee una casona que es usada como oficina central y una casa patronal que está acondicionada como casa de reposo, autorizada por el ministerio de salud, donde presta sus servicios de cuidado y atenciones menores de salud.
+                    El personal que trabaja en la casa de reposo es contratado por la fundación, pero además existe personal que trabaja ad-honorem.</p>       
+                </div>
+                <div class="col-1"></div>
+                <div class="col">
+                    <img src="img/casa.jfif" alt="" width="350px" height="250px">
                 </div>
             </div>
             <br>
-            <br>
-            <br>
-            <h1> Bienvenidos a Fundación Apoyo</h1>
-            <br>
-            <br>
-            <H1>¿Quiénes somos?</H1>
             <br>
             <div class="row">
                 <div class="col-6">
-                    <div class="j">
-                        <p>Somos una organización, sin fines de lucro, que se dedica a prestar ayuda a las personas
-                            de tercera edad. Dicha fundación se creó en 1995, por la iniciativa de un grupo
-                            de personas comprometidas por el bienestar de los ancianos, quienes efectuaron aportes
-                            en dinero y mano de obra para lograr construir la casa de reposo.
-                            Actualmente la fundación posee una casona que es usada como oficina central y una casa
-                            patronal que está acondicionada como la casa de reposo, autorizada por el ministerio de
-                            salud, donde presta sus servcios de cuidado y atenciones menores de salud.
-                        </p>
-                    </div>
+                    <h3>¿Qué hacemos?</h3>
+                    <br>
+                    <p>En la casa de reposo se entregan cuidados médicos y estadía parcial y permanente a
+                        los residentes. Actualmente se recibe ayuda a través de colectas, aportes y
+                        trabajo de jóvenes que asisten a efectuar trabajo social, para poder sustentar
+                        lo que corresponde a alimentación, residencia, cuidados, médicos, medicamentos y ropa.
+                        los parientes de los residentes, realizan un pequeño aporte. Además tenemos enfermeras
+                        y paramédicos a disposición de los residentes las 24hrs del día.</p>       
                 </div>
-                <div class="col-2"></div>
-                <div class="col-4">
-                    <img src="img/casa.jfif" alt="" width="350" height="250">
+                <div class="col-1"></div>
+                <div class="col">
+                    <img src="img/anciano5.jpg" alt="" width="350px" height="250px">
                 </div>
             </div>
             <br>
             <br>
-            <H1>¿Qué hacemos?</H1>
-            <br>
+            <!--galeria-->
             <div class="row">
-                <div class="col-6">
-                    <div class="j">
-                        <p>En la casa de reposo se entregan cuidados médicos y estadía parcial y permanente a
-                            los residentes. Actualmente se recibe ayuda a través de colectas, aportes y
-                            trabajo de jóvenes que asisten a efectuar trabajo social, para poder sustentar
-                            lo que corresponde a alimentación, residencia, cuidados, médicos, medicamentos y ropa.
-                            los parientes de los residentes, realizan un pequeño aporte. Además tenemos enfermeras
-                            y paramédicos a disposición de los residentes las 24hrs del día.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-2"></div>
-                <div class="col-4">
-                    <img src="img/anciano5.jpg" alt="" width="350" height="250">
+                <div class="col">
+                    <h3>Fotos de la fundación</h3>
+                    <br>
+                    <div class="row py-3">
+                        <div class="col">
+                            <div class="card" style="width: col;">
+                                <img src="img/anciano1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Reunión con la Iglesia</h5>
+                                  <p class="card-text">Recuerdo del 2016.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col no-gutters">
+                            <div class="card" style="width: col;">
+                                <img src="img/anciano2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Llegada de residentes</h5>
+                                  <p class="card-text">La entrada a la fundación.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col no-gutters">
+                            <div class="card" style="width: col;">
+                                <img src="img/anciano3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Visitas</h5>
+                                  <p class="card-text">Los residentes deben de tomar asiento y esperar ahí, la llegada de sus parientes.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col no-gutters">
+                            <div class="card" style="width: col;">
+                                <img src="img/anciano4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Día de actividades</h5>
+                                  <p class="card-text">Todos los domingos se realizan actividades recreativas.</p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>       
                 </div>
             </div>
-            <br>
-            <br>
-            <h1>Fotos de la fundación</h1>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
-                    <div class="card">
-                        <div class="xd">
-                            <img src="img/anciano1.png" class="d-block w-100" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Reunión con la Iglesia.</h5>
-                                <p class="card-text">Recuerdo del 2016</p>
-                            </div>
+        </div>
+        <br>
+        <br>
+        <!--contacto form-->
+        <div class="row" id="contacto">
+            <div class="col-10">
+                <h3>Contáctanos</h3>
+                <br>
+                <div id="panel">
+                    <form id="formContactoPrincipal" action="#" method="">
+                        <div class="form-group">
+                            <label for="Nombre">Nombre y apellido:</label><br>
+                            <input type="text" id="NombreApellido" name="Nombre" class="form-control"
+                                placeholder="Ingresa tu Nombre y Apellido">
+                            <span id="errorNom" class="error"></span>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="xd">
-                            <img src="img/anciano2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">llegada de residentes</h5>
-                                <p class="card-text">La entrada a la fundación.</p>
-                            </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email" class="form-control"
+                            placeholder="Ingresa tu Correo Electrónico">
+                            <span id="errorgmail" class="error"></span>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="xd">
-                            <img src="img/anciano3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Visitas</h5>
-                                <p class="card-text">Los residentes deben de tomar asiento y esperar
-                                    ahí, la llegada de sus parientes.</p>
-                            </div>
+                        <div class="form-group">
+                            <label for="comentario">Comentario</label>
+                            <textarea name="comentario" id="mensaje" cols="30" rows="7" class="form-control" placeholder="Escribe un mensaje"></textarea>
+                            <span id="ErrorMensaje" class="error"></span>
                         </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <div class="xd">
-                            <img src="img/anciano4.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Día de actividades</h5>
-                                <p class="card-text">Todos los domingos se realizan actividades recreativas.</p>
-                            </div>
-                        </div>
-                    </div>
+                        <button type="submit" class="btn btn-primary" id=Enviar>Enviar</button>
+                    </form>
                 </div>
             </div>
-            <br>
-            <br>
-            <br>
-            <br>
-        </header>
-        <section>
-            <div class="row">
-                <div class="col-3"></div>
-                <div class="col-6">
-                    <div id="flip">Contactanos</div>
-                    <div id="panel">
-                        <legend>Ingresa tus datos:</legend>
-                        <nav>
-                            <form id="formContactoPrincipal" action="#" method="">
-                                <br>
-                                <fieldset>
-                                    <div class="form-group">
-                                        <label for="Nombre">Nombre y apellido:</label><br>
-                                        <input type="text" id="NombreApellido" name="Nombre" class="form-control"
-                                            placeholder="Ingresa tu Nombre y Apellido">
-                                        <span id="errorNom" class="error"></span>
-                                        <br>
-                                        <label for="email">Email:</label><br>
-                                        <input type="email" id="email" name="email" class="form-control"
-                                            placeholder="Ingresa tu Correo Electrónico">
-                                        <span id="errorgmail" class="error"></span>
-                                        <br>
-                                        <label for="fname">Mensaje:</label><br>
-                                        <textarea name="comentarios" id="mensaje" cols="50" rows="5"
-                                            placeholder="Escribe un mensaje."></textarea>
-                                        <span id="ErrorMensaje" class="error"></span>
-                                        <br>
-                                        <br>
-                                        <button type="submit" class="btn btn-secondary" id=Enviar>Enviar</button>
-                                    </div>
-                                </fieldset>
-                            </form>
-                        </nav>
-                    </div>
-                </div>
-                <div class="col-3"></div>
-            </div>
-        </section>
+            <div class="col"></div>
+        </div>
+        <br>
     </div>
-    <br>
-    <br>
-    </div>
-
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
 </body>
-
 </html>

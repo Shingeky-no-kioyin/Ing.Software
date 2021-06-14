@@ -1,5 +1,5 @@
 body{
-    background-color: #f1eded;
+    background-color: white;
 }
 div.b {
     -webkit-text-decoration-line: underline;
@@ -15,14 +15,14 @@ div.j{
 	text-align: justify;
 }
 .btn-primary{
-    color: #8F8F8F;
+    color: white;
     background-color: #003865;
     border-color: #003865;
 }
 
 .btn-primary:hover{
     color:  #003865;
-    background-color: #8F8F8F;
+    background-color: white;
     border-color:  #003865;
 }
 .btn-secondary{
@@ -58,7 +58,7 @@ code{
 }
 
 #fundacion{
-    background-color:#dfdbdb ;
+    background-color:white ;
 }
 #f{
 	text-align: justify;
@@ -91,20 +91,17 @@ div.xd{
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background: #E5E5E5;
+	background: white;
 }
-
+nav {
+    background-color: white;
+}
 main {
 	max-width: 800px;
 	width: 90%;
 	margin: auto;
 	padding: 40px;
-}
-
-.formulario {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 20px;
+	background-color: #dfdbdb;
 }
 
 .formulario__label {
@@ -158,11 +155,6 @@ main {
 	margin-right: 10px;
 }
 
-.formulario__grupo-terminos, 
-.formulario__mensaje,
-.formulario__grupo-btn-enviar {
-	grid-column: span 2;
-}
 
 .formulario__mensaje {
 	height: 45px;
@@ -191,7 +183,7 @@ main {
 	height: 45px;
 	line-height: 45px;
 	width: 30%;
-	background: #000;
+	background: #065ab9;
 	color: #fff;
 	font-weight: bold;
 	border: none;
@@ -201,7 +193,7 @@ main {
 }
 
 .formulario__btn:hover {
-	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+	background-color: #0075FF;
 }
 
 .formulario__mensaje-exito {
@@ -232,12 +224,44 @@ main {
 .formulario__grupo-incorrecto .formulario__input {
 	border: 3px solid #bb2929;
 }
+#form1 {
+	background-color: #dfdbdb;
+}
+#btn1 a{
+	color: white;
+	text-decoration: none;
+}
 
-
+#btn1:hover{
+	background-color: #065ab9;
+}
+table{
+	width: 100%;
+}
+table th {
+	background-color: #2711a3;
+	color: white;
+	text-align: left;
+	padding: 12px 0 0 8px;
+}
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+tfoot{
+	color: white;
+	background-color: #3725a1;
+}
+tfoot td {
+	border: none;
+}
 /* ----- -----  Mediaqueries ----- ----- */
 @media screen and (max-width: 800px) {
 	.formulario {
-		grid-template-columns: 1fr;
+		grid-template-columns: 1fr;	
 	}
 
 	.formulario__grupo-terminos, 
