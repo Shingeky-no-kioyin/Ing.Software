@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabilidad</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="img/logo2.jpg" />
+    
+</head>
+<body>
+    <div class="container">
+        <!--nav-->
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a class="navbar-brand" href="">Fundación Apoyo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Aportador.html">Menu <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a href=""><button type="button" class="btn btn-light">Aportador</button></a>
+                    <a href="index.html"><button type="button" class="btn btn-primary my-2 my-sm-0">Cerrar cuenta</button></a>
+                </form>
+                
+            </div>
+        </nav>
+        <br>
+        <!--main-->
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-7"><h1>Mis datos</h1></div>
+            <div class="col"></div>
+        </div>
+        <br>
+        <!--Datos-->
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10">
+                <ul>
+                    <li>Nombre: Rolando Garcia Quiroz</li>
+                    <li>Rut: 17.367.908-k</li>
+                    <li>Mail: aportador@gmail.com</li>
+                    <li>fecha registro: 22/08/2015</li>
+                    <li>Aporte Mensual: $80.000</li>
+                </ul>
+            </div>
+            <div class="col"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10">
+                <button type="button" class="btn btn-primary" id="bt1">Editar Información</button>
+                <button type="button" class="btn btn-primary" id="bt2">Monto Aporte</button>
+                <button type="button" class="btn btn-primary" id="bt3">Historial Aportes</button>
+            </div>
+            <div class="col"></div>
+        </div>
+        <br>
+        <div class="row" id="caj1">
+            <div class="col"></div>
+            <div class="col-10">
+                <h3>Nueva info</h3>
+                <br>
+                <form id="formContactoPrincipal" action="#" method="">
+                    <div class="form-group">
+                        <label for="Nombre">Nombre y apellido:</label><br>
+                        <input type="text" id="NombreApellido" name="Nombre" class="form-control"
+                            placeholder="Ingresa tu nuevo Nombre y Apellido">
+                        <span id="errorNom" class="error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Nuevo Email:</label><br>
+                        <input type="email" id="email" name="email" class="form-control"
+                        placeholder="Ingresa tu nuevo Correo Electrónico">
+                        <span id="errorgmail" class="error"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id=Enviar>Cambiar</button>
+                </form>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row" id="caj2">
+            <div class="col"></div>
+            <div class="col-10">
+                <h3>Realizar Aporte</h3>
+                <br>
+                <form id="formContactoPrincipal" action="#" method="">
+                    <div class="form-group">
+                        <label for="Nombre">Monto aporte:</label><br>
+                        <input type="text" id="NombreApellido" name="Nombre" class="form-control"
+                            placeholder="Sin puntos ni comas ej: 10000">
+                        <span id="errorNom" class="error"></span>
+                    </div>
+                </form>
+                <div class="dropdown" id="droow">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="droow0"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Seleccionar Método Pago
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="droow" id="aaa0">
+                        <a class="dropdown-item" href="#">Transferencia bancaria</a>
+                        <a class="dropdown-item" href="#">WePay</a>
+                        <a class="dropdown-item" href="#">Ticket Caja Vecina</a>
+                    </div>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary" id=Enviar>Pagar</button>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row" id="caj3">
+            <div class="col"></div>
+            <div class="col-10" id="hist_aportes">
+                <table>
+                    <thead>
+                        <tr>
+                            <th><h2>Fecha</h2></th>
+                            <th><h2>Aporte</h2></th>
+                            <th><h2>Código</h2></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><h4>22/07/2020</h4></td>
+                            <td><h4>$80.000</h4></td>
+                            <td><h4>123</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>22/08/2020</h4></td>
+                            <td><h4>$80.000</h4></td>
+                            <td><h4>124</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>22/09/2020</h4></td>
+                            <td><h4>$80.000</h4></td>
+                            <td><h4>125</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>22/10/2020</h4></td>
+                            <td><h4>$80.000</h4></td>
+                            <td><h4>126</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>22/11/2020</h4></td>
+                            <td><h4>$80.000</h4></td>
+                            <td><h4>127</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>22/12/2020</h4></td>
+                            <td><h4>$80.000</h4></td>
+                            <td><h4>128</h4></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <button type="button" class="btn btn-primary my-2 my-sm-0">Guardar como pdf</button>
+                <br>
+                <br>
+            </div>
+            <br>
+            <div class="col"></div>
+        </div>
+        
+    </div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/aportador.js"></script>
+</body>
+</html>

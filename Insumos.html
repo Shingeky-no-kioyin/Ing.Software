@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Funcionarios</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="img/logo2.jpg" />
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <!--nav-->
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a class="navbar-brand" href="">Fundación Apoyo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="funcionarios.html">Menu <span class="sr-only">(current)</span></a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a href="#"><button type="button" class="btn btn-light">Dueño</button></a>
+                    <a href="index.html"><button type="button" class="btn btn-primary my-2 my-sm-0">Cerrar cuenta</button></a>
+                </form>
+                
+            </div>
+        </nav>
+        <!--cuerpo-->
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary" id="boton_1">Stock Bodega</button>
+                <button type="button" class="btn btn-primary" id="boton_2">Registro compra</button>
+                <button type="button" class="btn btn-primary" id="boton_3">Por pacientes</button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <!--boton 1-->
+        <div class="row" id="btn_1">
+            <div class="col"></div>
+            <div class="col-10">
+                <table>
+                    <thead>
+                        <tr>
+                            <th><h2>Código</h2></th>
+                            <th><h2>Insumo</h2></th>
+                            <th><h2>Cantidad</h2></th>
+                            <th><h2>Categoria</h2></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><h4>1223kj</h4></td>
+                            <td><h4>Paracetamol</h4></td>
+                            <td><h4>600</h4></td>
+                            <td><h4>Medico</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>456oko</h4></td>
+                            <td><h4>Ibuprofeno</h4></td>
+                            <td><h4>150</h4></td>
+                            <td><h4>Medico</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>5464pl</h4></td>
+                            <td><h4>Jeringas</h4></td>
+                            <td><h4>2500</h4></td>
+                            <td><h4>Medico</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>2346mn</h4></td>
+                            <td><h4>Batas</h4></td>
+                            <td><h4>3090</h4></td>
+                            <td><h4>Ropa</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>2345lk</h4></td>
+                            <td><h4>Sabanas</h4></td>
+                            <td><h4>60</h4></td>
+                            <td><h4>Cama</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>23ijud</h4></td>
+                            <td><h4>Sal</h4></td>
+                            <td><h4>30</h4></td>
+                            <td><h4>Alimento</h4></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col"></div>
+        </div>
+            <!--boton 2-->
+        <div class="row" id="btn_2">
+            <div class="col"></div>
+            <div class="col-10">
+                <button type="button" class="btn btn-primary">Ingresar nuevo</button>
+                <button type="button" class="btn btn-primary">Editar</button>
+                <br>
+                <br>
+                <table>
+                    <thead>
+                        <tr>
+                            <th><h2>Código</h2></th>
+                            <th><h2>Insumo</h2></th>
+                            <th><h2>Cantidad</h2></th>
+                            <th><h2>Categoria</h2></th>
+                            <th><h2>Fecha compra</h2></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><h4>1223kj</h4></td>
+                            <td><h4>Paracetamol</h4></td>
+                            <td><h4>600</h4></td>
+                            <td><h4>Medico</h4></td>
+                            <td><h4>22/06/2020</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>456oko</h4></td>
+                            <td><h4>Ibuprofeno</h4></td>
+                            <td><h4>150</h4></td>
+                            <td><h4>Medico</h4></td>
+                            <td><h4>14/02/2021</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>5464pl</h4></td>
+                            <td><h4>Jeringas</h4></td>
+                            <td><h4>2500</h4></td>
+                            <td><h4>Medico</h4></td>
+                            <td><h4>08/10/2020</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>2346mn</h4></td>
+                            <td><h4>Batas</h4></td>
+                            <td><h4>3090</h4></td>
+                            <td><h4>Ropa</h4></td>
+                            <td><h4>12/12/2020</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>2345lk</h4></td>
+                            <td><h4>Sabanas</h4></td>
+                            <td><h4>60</h4></td>
+                            <td><h4>Cama</h4></td>
+                            <td><h4>28/07/2020</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>23ijud</h4></td>
+                            <td><h4>Sal</h4></td>
+                            <td><h4>30</h4></td>
+                            <td><h4>Alimento</h4></td>
+                            <td><h4>10/05/2021</h4></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        <div class="col"></div>
+        </div>
+            <!--boton 3-->
+        <div class="row" id="btn_3">
+            <div class="col"></div>
+            <div class="col-10">
+                <div class="input-group rounded">
+                    <input type="search" class="form-control rounded" placeholder="Ingrese nombre" aria-label="Search"
+                      aria-describedby="search-addon" />
+                    <button type="button" class="btn btn-primary">Buscar</button>
+                    </span>
+                </div>
+                <br>
+                <table>
+                    <thead>
+                        <tr>
+                            <th><h2>Nombre Completo</h2></th>
+                            <th><h2>Insumo</h2></th>
+                            <th><h2>Cantidad</h2></th>
+                            <th><h2>Médico</h2></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><h4>Sebastian Rebolledo Gómez</h4></td>
+                            <td><h4>Paracetamol</h4></td>
+                            <td><h4>200 gr</h4></td>
+                            <td><h4>Marco Gutierrez M.</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Sebastian Rebolledo Gómez</h4></td>
+                            <td><h4>Dipirona</h4></td>
+                            <td><h4>150 gr</h4></td>
+                            <td><h4>Marco Gutierrez M.</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Luis palominos Carte</h4></td>
+                            <td><h4>Ibuprofeno</h4></td>
+                            <td><h4>200 gr</h4></td>
+                            <td><h4>David Campos N.</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Luisa Bombal Lara</h4></td>
+                            <td><h4>Insulina</h4></td>
+                            <td><h4>250 ml</h4></td>
+                            <td><h4>Marco Gutierrez M.</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Luisa Bombal Lara</h4></td>
+                            <td><h4>Omeoprazol</h4></td>
+                            <td><h4>100 gr</h4></td>
+                            <td><h4>Marco Gutierrez M.</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Miguel Bose Ramirez</h4></td>
+                            <td><h4>Aspirina</h4></td>
+                            <td><h4>200 gr</h4></td>
+                            <td><h4>David Campos N.</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Miguel Bose Ramirez</h4></td>
+                            <td><h4>Sal</h4></td>
+                            <td><h4>30</h4></td>
+                            <td><h4>David Campos N.</h4></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <script src="js/insumosduenno.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
