@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salida de Residentes</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="img/logo2.jpg" />
+
+</head>
+
+<body>
+    <div class="container">
+        <!--nav-->
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a class="navbar-brand" href="">Fundación Apoyo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="funcionarios.html">Menu <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a href="#"><button type="button" class="btn btn-light">Supervisor</button></a>
+                    <a href="index.html"><button type="button" class="btn btn-primary my-2 my-sm-0">Cerrar
+                            cuenta</button></a>
+                </form>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-7"><b>
+                    <h1>Salida de residentes</h1>
+                </b></div>
+            <div class="col"></div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-7">
+                <label>Seleccione la fecha de Salida del residente</label>
+                <br>
+                <input type="date" name="fecha" id="fechh">
+            </div>
+            <div class="col"></div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-7">
+                <label for="nombre">Ingrese nombre del residente</label>
+                <br>
+                <input type="text" name="nombre" class="form-control" placeholder="Pepito Pérez">
+                <br><br>
+                <label for="rut">Ingrese rut del residente</label>
+                <br>
+                <input type="text" name="rut" class="form-control" placeholder="ejemplo 11.111.111-1">
+                <br><br>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-7">
+                <form class="test">
+                    <label for="tipoingreso">Tipo de salida</label>
+                    <br><br>
+                    <select name="combo" class="btn btn-secondary" id="test">
+                         <option value="0">Tipos de ingresos </option>
+                         <option value="1">De forma Permanente</option>
+                         <option value="2">De forma Periódica</option>
+                   </select>
+                </form>
+                <br>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-7">                
+                <form class="esp">
+                    <label>Seleccione la fecha en la que estará de vuelta</label>
+                    <br><br>
+                    <input type="date" name="fecha">
+                    <br><br>
+                    <label> Ingrese motivo de la salida</label>
+                    <br><br>
+                    <input type="text" name="salida" id="" class="form-control">
+                </form>
+            </div>
+            <div class="col"></div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-7">
+                <a href="salida.html"><button type="reset" class="btn btn-primary">Guardar</button></a>
+            </div>
+            <div class="col"></div>
+        </div>
+        <br><br>
+    </div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scriptCuenta.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

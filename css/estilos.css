@@ -14,6 +14,7 @@ div.c{
 div.j{
 	text-align: justify;
 }
+
 .btn-primary{
     color: white;
     background-color: #003865;
@@ -26,9 +27,16 @@ div.j{
     border-color:  #003865;
 }
 .btn-secondary{
+	color:white;
     background-color: #000000;
     border-color:#bb2929;
 }
+.btn-secondary:hover{
+    color:  #000000;
+    background-color: white;
+    border-color:  #bb2929;
+}
+
 code{
     text-decoration: #FFFAFA;
     background-color: #000000;
@@ -70,8 +78,8 @@ code{
 #bb{
     background-color: #DDD9D9;
 }
-#h1{
-    color: #003865;
+#fechh{
+    color:#000000;
 }
 #h3{
     color: #003865;
@@ -80,6 +88,16 @@ div.xd{
 	float: left;
 }
 
+.test {
+    padding:15px;
+    margin:10px;
+}
+
+.esp {
+    padding:15px;
+    margin:10px;
+    display:none;
+}
 
 
 
@@ -310,3 +328,5 @@ body{
 #ErrorMensaje{
 	color: #e20606;
 }
+
+

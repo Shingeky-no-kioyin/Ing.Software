@@ -1,0 +1,39 @@
+/*------login---------*/
+
+/* oculto los elementos */
+  button.btn-primary{
+    display: none;
+  }
+  button.btn-secondary{
+    display: none;
+  }
+  label.form-label{
+    display: none;
+  }
+  input.form-control{ 
+    display: none;
+  }
+
+  
+  /*mostrará si está seleccionado value=Funcionario */
+  input.i-radio[value="Funcionario"]:checked ~ button.btn-primary{
+    display: block;
+  }
+  input.i-radio[value="Funcionario"]:checked ~ label.form-label{
+    display: block;
+  }
+  input.i-radio[value="Funcionario"]:checked ~ input.form-control{
+    display: block;
+  }
+  
+  /*no mostrará si está seleccionado value=Aportador*/
+  input.i-radio[value="Aportador"]:checked ~ button.btn-secondary{
+    display: block;
+  }
+  input.i-radio[value="Aportador"]:checked ~ label.form-label{
+    display: block;
+  }
+  input.i-radio[value="Aportador"]:checked ~ input.form-control{
+    display: block;
+  }
+/*------login---------*/

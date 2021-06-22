@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -100,19 +99,16 @@
                         <span id="errorNom" class="error"></span>
                     </div>
                 </form>
-                <div class="dropdown" id="droow">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="droow0"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Seleccionar Método Pago
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="droow" id="aaa0">
-                        <a class="dropdown-item" href="#">Transferencia bancaria</a>
-                        <a class="dropdown-item" href="#">WePay</a>
-                        <a class="dropdown-item" href="#">Ticket Caja Vecina</a>
-                    </div>
+                <div>
+                    <select name="combo" class="btn btn-secondary">
+                        <option value="0"selected>Seleccionar Método Pago</option>
+                        <option value="1">Transferencia bancaria</option>
+                        <option value="2">WePay</option>
+                        <option value="3">Ticket Caja Vecina</option>
+                    </select>
                 </div>
                 <br>
-                <button type="submit" class="btn btn-primary" id=Enviar>Pagar</button>
+                <button type="submit" class="btn btn-primary">Pagar</button>
             </div>
             <div class="col"></div>
         </div>
