@@ -115,8 +115,8 @@ nav {
     background-color: white;
 }
 main {
-	max-width: 800px;
-	width: 90%;
+	max-width: 900px;
+	width: 95%;
 	margin: auto;
 	padding: 40px;
 	background-color: #dfdbdb;
@@ -305,16 +305,10 @@ body{
     color:#F00;
 
 }
-#flip {
-	padding: 5px;
-	text-align: center;
-	background-color: #e5eecc;
-	border: solid 1px #c3c3c3;
-}
   
 #panel {
 	padding: 50px;
-	display: none;
+	display: block;
   }
 
 #errorNom{

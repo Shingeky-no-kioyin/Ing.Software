@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contabilidad</title>
+    <title>Aportador</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="icon" type="image/png" href="img/logo2.jpg" />
@@ -24,7 +24,7 @@
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <a href="#"><button type="button" class="btn btn-light">Aportador</button></a>
+                    <a href="perfilaportador.html"><button type="button" class="btn btn-light">Perfil</button></a>
                     <a href="index.html"><button type="button" class="btn btn-primary my-2 my-sm-0">Cerrar cuenta</button></a>
                 </form>
                 
@@ -43,10 +43,7 @@
             <div class="col"></div>
             <div class="col-10">
                 <ul>
-                    <li>Nombre: Rolando Garcia Quiroz</li>
-                    <li>Rut: 17.367.908-k</li>
-                    <li>Mail: aportador@gmail.com</li>
-                    <li>fecha registro: 22/08/2015</li>
+                    <li>Fecha registro: 22/08/2015</li>
                     <li>Aporte Mensual: $80.000</li>
                 </ul>
             </div>
@@ -58,7 +55,7 @@
             <div class="col-10">
                 <button type="button" class="btn btn-primary" id="bt1">Editar Información</button>
                 <button type="button" class="btn btn-primary" id="bt2">Monto Aporte</button>
-                <button type="button" class="btn btn-primary" id="bt3">Historial Aportes</button>
+                <button type="button" class="btn btn-primary" id="bt3">Conocer Historial de aportes</button>
             </div>
             <div class="col"></div>
         </div>
@@ -112,10 +109,221 @@
             </div>
             <div class="col"></div>
         </div>
-        <div class="row" id="caj3">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-7"><h1 id="hh1">Detalle de aportaciones</h1></div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10">
+                <button type="button" class="btn btn-primary" id="w">Aporte Mensuales</button>
+                <button type="button" class="btn btn-primary" id="e">Aporte por periodo de tiempo</button>
+                <button type="button" class="btn btn-primary" id="r">Historial Aportes</button>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row" id="ww">
+            <div class="col"></div>
+            <div class="col-10">
+                <div class="dropdown" id="droow">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="abc"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Seleccione mes
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="droow" id="dfg">
+                        <a class="dropdown-item" href="#" id="01e">Enero</a>
+                        <a class="dropdown-item" href="#" id="02f">Febrero</a>
+                        <a class="dropdown-item" href="#" id="03m">Marzo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10">
+                <table id="tbl1">
+                    <thead>
+                        <tr>
+                            <th><h2>Nombre</h2></th>
+                            <th><h2>Fecha aporte</h2></th>
+                            <th><h2>Tipo de pago</h2></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><h4>Rolando Garcia Quiroz</h4></td>
+                            <td><h4>02-01-2020</h4></td>
+                            <td><h4>Transferencia</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Rolando Garcia Quiroz</h4></td>
+                            <td><h4>10-01-2020</h4></td>
+                            <td><h4>Transferencia</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Rolando Garcia Quiroz</h4></td>
+                            <td><h4>25-01-2020</h4></td>
+                            <td><h4>Transferencia</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Rolando Garcia Quiroz</h4></td>
+                            <td><h4>12-01-2020</h4></td>
+                            <td><h4>Transferencia</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Rolando Garcia Quiroz</h4></td>
+                            <td><h4>11-01-2020</h4></td>
+                            <td><h4>Ticket Caja Vecina</h4></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col"></div>
+            <br>
+            <br>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10">
+                <table id="tbl2">
+                    <thead>
+                        <tr>
+                            <th><h2>Nombre</h2></th>
+                            <th><h2>Fecha aporte</h2></th>
+                            <th><h2>Tipo de pago</h2></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><h4>Rolando Garcia Quiroz</h4></td>
+                            <td><h4>07-02-2020</h4></td>
+                            <td><h4>Transferencia</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Rolando Garcia Quiroz</h4></td>
+                            <td><h4>16-02-2020</h4></td>
+                            <td><h4>WePay</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Rolando Garcia Quiroz</h4></td>
+                            <td><h4>22-02-2020</h4></td>
+                            <td><h4>Ticket Caja Vecina</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Rolando Garcia Quiroz</h4></td>
+                            <td><h4>01-02-2020</h4></td>
+                            <td><h4>WePay</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Rolando Garcia Quiroz</h4></td>
+                            <td><h4>12-02-2020</h4></td>
+                            <td><h4>WePay</h4></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col"></div>
+            <br>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10">
+                <table id="tbl3">
+                    <thead>
+                        <tr>
+                            <th><h2>Nombre</h2></th>
+                            <th><h2>Fecha aporte</h2></th>
+                            <th><h2>Tipo de pago</h2></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><h4>Rolando Garcia Quiroz</h4></td>
+                            <td><h4>11-03-2020</h4></td>
+                            <td><h4>Ticket Caja Vecina</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Rolando Garcia Quiroz</h4></td>
+                            <td><h4>02-03-2020</h4></td>
+                            <td><h4>Transferencia</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Rolando Garcia Quiroz</h4></td>
+                            <td><h4>30-03-2020</h4></td>
+                            <td><h4>Ticket Caja Vecina</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Rolando Garcia Quiroz</h4></td>
+                            <td><h4>15-03-2020</h4></td>
+                            <td><h4>Ticket Caja Vecina</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Rolando Garcia Quiroz</h4></td>
+                            <td><h4>11-03-2020</h4></td>
+                            <td><h4>Transferencia</h4></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col"></div>
+            <br>
+            <br>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <form class="esp" id="ee">
+                    <label>Disponga un inicio del periodo de tiempo</label>
+                    <br><br>
+                    <input type="date" id="start" name="fecha" value="26-06-2021" min="2021-06-10" max="2021-06-26">
+                </form>
+            </div>
+            <div class="col">
+                <form class="esp" id="uwu">
+                    <label>Disponga un termino del periodo de tiempo</label>
+                    <br><br>
+                    <input type="date" id="fecc" name="fecha" value="26-06-2021" min="2021-06-10" max="2021-06-26">
+                </form>
+            </div>
+            <br><br>
+            <div class="col-4">
+                <button class="btn btn-primary" id="jeje">Buscar</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10">
+                <table id="jojo">
+                    <thead>
+                        <tr>
+                            <th><h2>Aporte</h2></th>
+                            <th><h2>Código</h2></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><h4>$80.000</h4></td>
+                            <td><h4>123</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>$180.000</h4></td>
+                            <td><h4>124</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>$200.000</h4></td>
+                            <td><h4>127</h4></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row">
             <div class="col"></div>
             <div class="col-10" id="hist_aportes">
-                <table>
+                <table id="rr">
                     <thead>
                         <tr>
                             <th><h2>Fecha</h2></th>
@@ -131,7 +339,7 @@
                         </tr>
                         <tr>
                             <td><h4>22/08/2020</h4></td>
-                            <td><h4>$80.000</h4></td>
+                            <td><h4>$180.000</h4></td>
                             <td><h4>124</h4></td>
                         </tr>
                         <tr>
@@ -141,12 +349,12 @@
                         </tr>
                         <tr>
                             <td><h4>22/10/2020</h4></td>
-                            <td><h4>$80.000</h4></td>
+                            <td><h4>$100.000</h4></td>
                             <td><h4>126</h4></td>
                         </tr>
                         <tr>
                             <td><h4>22/11/2020</h4></td>
-                            <td><h4>$80.000</h4></td>
+                            <td><h4>$200.000</h4></td>
                             <td><h4>127</h4></td>
                         </tr>
                         <tr>
@@ -157,14 +365,12 @@
                     </tbody>
                 </table>
                 <br>
-                <button type="button" class="btn btn-primary my-2 my-sm-0">Guardar como pdf</button>
                 <br>
                 <br>
             </div>
             <br>
             <div class="col"></div>
         </div>
-        
     </div>
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/popper.js"></script>

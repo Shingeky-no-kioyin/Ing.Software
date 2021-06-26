@@ -34,12 +34,6 @@ $(document).ready(function () {
 //VALIDACIÓN DE  FORMULARIO
 $(document).ready(function () {
 
-    //DESLIZAR FORMULARIO
-
-    $("#flip").click(function () {
-        $("#panel").slideToggle("slow");
-    });
-
 
     //VALIDACIÓN FORMULARIO PÁGINA PRIENCIPAL
 
@@ -58,7 +52,7 @@ $(document).ready(function () {
         else $("#errorNom").hide()
     });
 
-    $("NombreApellido").focus(function () {
+    $("#NombreApellido").focus(function () {
         console.log("NombreApellido ganó el foco")
         $("errorNom").fadeOut()
     });
@@ -110,28 +104,32 @@ $(document).ready(function () {
 
     $("#droow0").click(function () {
         $("#aaa0").slideToggle("slow");
+        $("#aaa1").hide()
+        $("#aaa2").hide()
+        $("#aaa3").hide()
     });
 
     $("#droow1").click(function () {
         $("#aaa1").slideToggle("slow");
+        $("#aaa0").hide()
+        $("#aaa2").hide()
+        $("#aaa3").hide()
     });
 
     $("#droow2").click(function () {
         $("#aaa2").slideToggle("slow");
+        $("#aaa0").hide()
+        $("#aaa1").hide()
+        $("#aaa3").hide()
     });
 
 
     $("#droow3").click(function () {
         $("#aaa3").slideToggle("slow");
+        $("#aaa0").hide()
+        $("#aaa1").hide()
+        $("#aaa2").hide()
     });
     
 });
-
-
-//<div class="alert alert-success" role="alert">
-//A simple success alert—check it out!
-//</div>
-
-
-
 

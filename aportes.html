@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabilidad</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="img/logo2.jpg" />
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/apo.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <!--nav-->
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a class="navbar-brand" href="#">Fundación Apoyo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Menu <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a href="perfilaportador.html"><button type="button" class="btn btn-light">Perfil
+                            aportador</button></a>
+                    <a href="index.html"><button type="button" class="btn btn-primary my-2 my-sm-0">Cerrar
+                            cuenta</button></a>
+                </form>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                        href="#list-home" role="tab" aria-controls="home">¿En que se ocupa mi aporte?</a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                        href="#list-profile" role="tab" aria-controls="profile">¿A quien ayudo?</a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                        href="#list-messages" role="tab" aria-controls="messages">¿Cómo se ve la progresión de la
+                        Fundación, estadísticamente, en un año?</a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                        href="#list-settings" role="tab" aria-controls="settings">¿Cómo se ve la progresión,
+                        estadísticamente, de la Fundación de forma Histórica?</a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                        aria-labelledby="list-home-list">
+                        Todos los aportes recibidos por la Fundación, se utilizan para poder sustentar lo que
+                        corresponde a alimentación, residencia, cuidados, médicos, medicamentos y ropa. además con ello
+                        se pueden realizar actividades recreativas y materiales de atención, ya sea desde una radio a
+                        una silla de ruedas. </div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                        Ayudas a las personas de 3ra edad que son residentes de la Fundación, además de ayudar a que
+                        esta comunidad cresca más y así poder expandirse y poder tener más lugar para aceptar a más
+                        personas de 3era edad que lo necesitan
+                    </div>
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                        <button class="btn btn-primary" id="vertabla1">Ver Tabla</button>
+                    </div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                        <button class="btn btn-primary" id="vertabla2">Ver Tabla </button>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br><br>
+            <div class="row">
+                <div class="col-4" id="tabla1">
+                    <img src="img/tablaano.jpeg" alt="" class="d-block w-100" width="600" height="315" >
+                </div>
+                <br>
+                <br>
+                <div class="col-4">
+                    <button class="btn btn-primary" id="vergrafico1">Ver Gráfico </button>
+                </div>
+                <div class="col-4" id="grafico1">
+                    <img src="img/anual.jpeg" alt="" class="d-block w-100" width="600" height="315" >
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4" id="tabla2">
+                    <img src="img/tablahistory.jpeg" alt="" class="d-block w-100" width="600" height="315">
+                </div>
+                <div class="col-4">
+                    <button class="btn btn-primary" id="vergrafico2">Ver Gráfico </button>
+                </div>
+                <div class="col-4" id="grafico2">
+                    <img src="img/historica.jpeg" alt="" class="d-block w-100" width="600" height="315">
+                </div>
+            </div>
+            <hr>
+        </div>
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.js"></script>
+</body>
+</head>

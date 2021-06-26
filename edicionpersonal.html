@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editando Datos de Residentes</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="img/logo2.jpg" />
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a class="navbar-brand" href="">Fundación Apoyo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="funcionarios.html">Menu <span class="sr-only">(current)</span></a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a href="#"><button type="button" class="btn btn-light">Administrador</button></a>
+                    <a href="index.html"><button type="button" class="btn btn-primary my-2 my-sm-0">Cerrar
+                            cuenta</button></a>
+                </form>
+            </div>
+        </nav>
+        <main>
+            <form>
+                <h2>Editando Datos Personales de Residentes</h2>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-7">
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationDefault01">Nombre Completo</label>
+                                <input type="text" class="form-control" id="validationDefault01" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-7">
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationDefault02">Rut</label>
+                                <input type="text" class="form-control" id="validationDefault02" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-7">
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationDefault03">N° de Contacto de algún familiar</label>
+                                <input type="text" class="form-control" id="validationDefault03" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-8">
+                        <div class="form-row">
+                            <div class="col-md-3 mb-3">
+                                <label for="validationDefault04">Tipo de Estancia</label>
+                                <select class="custom-select" id="validationDefault04" required>
+                                    <option selected disabled value="">Estancia...</option>
+                                    <option>Permanente</option>
+                                    <option>Periódica</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-7">
+                        <div class="form-row">
+                            <div class="col-md-3 mb-3">
+                                <label for="validationDefault05">Crónico</label>
+                                <br>
+                                <input type="radio" name="cronico" class="i-cro" value="SI"> &#91;SI&#93;
+                                <input type="radio" name="cronico" class="i-cro" value="NO"> &#91;NO&#93;
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-7">
+                        <button class="btn btn-primary" type="submit" id="I">Guardar</button>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </form>
+        </main>
+    </div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

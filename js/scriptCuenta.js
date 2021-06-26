@@ -55,7 +55,7 @@ if ($('#test').val() == 0)
 $('#test').change(function() {
     
     if ($('#test').val() == 1)
-    {
+  {
         $(".esp").css("display","none");
     };
     
@@ -65,3 +65,4 @@ $('#test').change(function() {
     };
     
 });
+
