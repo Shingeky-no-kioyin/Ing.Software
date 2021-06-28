@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabilidad</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="img/logo2.jpg" />
+    
+</head>
+<body>
+    <div class="container">
+        <!--nav-->
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a class="navbar-brand" href="">Fundación Apoyo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="funcionarios.html">Menu <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a href=""><button type="button" class="btn btn-light">Administrador</button></a>
+                    <a href="index.html"><button type="button" class="btn btn-primary my-2 my-sm-0">Cerrar cuenta</button></a>
+                </form>
+                
+            </div>
+        </nav>
+        <br>
+        <!--main-->
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-7"><h1>Registro Contabilidad Aportes</h1></div>
+            <div class="col"></div>
+        </div>
+        <br>
+        <!--Selector-->
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10">
+                <div class="dropdown" id="droow">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="droow0"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Seleccione mes
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="droow" id="aaa0">
+                        <a class="dropdown-item" href="#" id="enero">Enero</a>
+                        <a class="dropdown-item" href="#">Febrero</a>
+                        <a class="dropdown-item" href="#">Marzo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-10" id="tablaconta">
+                <table>
+                    <thead>
+                        <tr>
+                            <th><h3>Nombre Aportador</h3></th>
+                            <th><h3>Rut Aportador</h3></th>
+                            <th><h3>Aporte $</h3></th>
+                            <th><h3>Fecha aporte</h3></th>
+                            <th><h3>Método Aporte</h3></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><h4>Miguel Gomez Bolaños</h4></td>
+                            <td><h4>11.344.111-k</h4></td>
+                            <td><h4>$150.000</h4></td>
+                            <td><h4>02/01/2021</h4></td>
+                            <td><h4>Transferencia Bancaria</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Sara Connor Kerrigan</h4></td>
+                            <td><h4>10.344.234-4</h4></td>
+                            <td><h4>$150.000</h4></td>
+                            <td><h4>22/01/2021</h4></td>
+                            <td><h4>WePay</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Luis Manuel Zañartu</h4></td>
+                            <td><h4>12.365.234-4</h4></td>
+                            <td><h4>$150.000</h4></td>
+                            <td><h4>08/01/2021</h4></td>
+                            <td><h4>ticket Caja Vecina</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Ronaldo Dino Gordillo</h4></td>
+                            <td><h4>16.457.902-k</h4></td>
+                            <td><h4>$150.000</h4></td>
+                            <td><h4>14/01/2021</h4></td>
+                            <td><h4>WePay</h4></td>
+                        </tr>
+                        <tr>
+                            <td><h4>Ivan Arenas Rosa</h4></td>
+                            <td><h4>$5.908.567-2</h4></td>
+                            <td><h4>$150.000</h4></td>
+                            <td><h4>05/01/2021</h4></td>
+                            <td><h4>Transferencia Bancaria</h4></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td><h4>Balance mes</h4></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><h4>$750.000</h4></td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <br>
+                <button type="button" class="btn btn-primary my-2 my-sm-0">Imprimir</button>
+                <br>
+                <br>
+            </div>
+            <br>
+            <div class="col"></div>
+        </div>
+    </div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/scriptCuenta.js"></script>
+</body>
+</html>
